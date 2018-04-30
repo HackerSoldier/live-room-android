@@ -1,0 +1,27 @@
+### build
+/build
+/app/build
+*.apk
+*.ap_
+.DS_Store
+/captures
+.externalNativeBuild
+
+### Dalvik VM
+*.dex
+
+### java
+*.class
+
+### IDEA
+/.idea
+*.iml
+
+### Gradle
+.gradle
+
+### Local configuration file
+/local.properties
+
+### emacs
+*~
