@@ -7,7 +7,7 @@
 /captures
 .externalNativeBuild
 
-### Dalvik VM
+### ART VM
 *.dex
 
 ### java
