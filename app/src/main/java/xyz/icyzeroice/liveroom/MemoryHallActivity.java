@@ -4,14 +4,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * MusicPlayerActivity:
- *   <GestureDetector> -- Left Scroll --> .CharRoomActivity
+ * MemoryHallActivity:
+ *   <RecyclerView> --> .RecordRoomActivity
+ *         |
+ *         +-- Right Scroll --> DeleteRecord
  */
-public class MusicPlayerActivity extends AppCompatActivity {
+public class MemoryHallActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_music_player);
+        setContentView(R.layout.activity_memory_hall);
     }
 }

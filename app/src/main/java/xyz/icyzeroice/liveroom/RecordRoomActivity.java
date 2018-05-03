@@ -4,19 +4,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 /**
- * ChatRoomActivity:
+ * RecordRoomActivity:
  *   <Toolbar>
  *   <RecyclerView>
- *   InputMessage<EditText>
- *   SubmitButton<Button>
- *   Toolbox
- *   <GestureDetector> -- Right Scroll --> .MusicPlayerActivity
  */
-public class ChatRoomActivity extends AppCompatActivity {
+public class RecordRoomActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat_room);
+        setContentView(R.layout.activity_record_room);
     }
 }
